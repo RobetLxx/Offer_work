@@ -1,0 +1,1 @@
+package util;/** * @author: lingjunhao * create at:  19/4/8  上午10:07 * @description: 公共链表 */public class ListNode {    public int val;    public ListNode next;    public ListNode(int x) { val = x; }}

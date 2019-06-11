@@ -1,0 +1,1 @@
+package Offer_week4;/** * @author: lingjunhao * create at:  19/5/7  下午7:51 * @description:树的最小深度 */public class Problem1 {    public int minDepth(TreeNode root) {        if (root==null)return 0;        int l=minDepth(root.left);        int r=minDepth(root.right);        if (l==0||r==0)return l+r;        else return Math.min(l,r)+1;    }}

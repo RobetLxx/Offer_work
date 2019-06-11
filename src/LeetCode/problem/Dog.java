@@ -1,0 +1,1 @@
+package LeetCode.problem;/** * @author: lingjunhao * create at:  19/3/12  下午3:21 * @description: */public class Dog extends Num004{    public Dog() {        super("dog");    }}

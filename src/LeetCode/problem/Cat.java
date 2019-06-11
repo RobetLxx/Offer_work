@@ -1,0 +1,1 @@
+package LeetCode.problem;/** * @author: lingjunhao * create at:  19/3/12  下午3:22 * @description: 猫队 */public class Cat extends Num004 {    public Cat() {        super("cat");    }}

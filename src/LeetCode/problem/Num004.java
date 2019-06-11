@@ -1,0 +1,1 @@
+package LeetCode.problem;/** * @author: lingjunhao * create at:  19/3/12  下午3:18 * @description: 面试题第四题猫狗对列 */public class Num004 {    private String type;    public Num004(String type) {        this.type = type;    }    public String getType() {        return type;    }    public void setType(String type) {        this.type = type;    }}

@@ -1,0 +1,1 @@
+package Offer_week2;/** * @author: lingjunhao * create at:  19/4/21  下午1:13 * @description: 在O(1)时间删除链表结点 */class ListNode {      int val;      ListNode next;      ListNode(int x) { val = x; }}public class Solution5 {    public void deleteNode(ListNode node) {        ListNode p=node.next;        node.val=p.val;        node.next=p.next;        p=null;    }}

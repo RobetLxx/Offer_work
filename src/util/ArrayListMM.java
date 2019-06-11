@@ -1,0 +1,1 @@
+package util;import java.util.ArrayList;import java.util.List;/** * @author: lingjunhao * create at:  19/5/2  下午5:54 * @description: */public class ArrayListMM {    List<Integer> x=new ArrayList<Integer>();}
